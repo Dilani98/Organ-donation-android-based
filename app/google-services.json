@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "15009944941",
+    "firebase_url": "https://donapp-144ed-default-rtdb.firebaseio.com",
+    "project_id": "donapp-144ed",
+    "storage_bucket": "donapp-144ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15009944941:android:a477e9515a7b3e3eac3664",
+        "android_client_info": {
+          "package_name": "com.example.orgdon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15009944941-9laohdhsi7iidmvvfff5dejl4qnlru41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw01TJdoOYDPSWKDkKI21Pg7-kJoSEWJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15009944941-9laohdhsi7iidmvvfff5dejl4qnlru41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

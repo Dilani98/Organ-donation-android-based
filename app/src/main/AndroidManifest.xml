@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--Here we specify the basics of what the app will look like-->
+    <application
+        android:name=".OfflineFirebase"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DataFlair">
+
+        <!--Here we call different activities in our program-->
+        <!--android:name here corresponds to the respective classes being called-->
+
+        <activity
+            android:name=".Organs"
+            android:exported="false" />
+        <activity
+            android:name=".Liver"
+            android:exported="false" />
+        <activity
+            android:name=".Heart"
+            android:exported="false" />
+        <activity
+            android:name=".Lungs"
+            android:exported="false" />
+        <activity
+            android:name=".Pancreas"
+            android:exported="false" />
+        <activity
+            android:name=".Kidneys"
+            android:exported="false" />
+        <activity
+            android:name=".SmallBowel"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalList"
+            android:exported="false" />
+        <activity
+            android:name=".ABPositive"
+            android:exported="false" />
+        <activity
+            android:name=".ABNegative"
+            android:exported="false" />
+        <activity
+            android:name=".OPositive"
+            android:exported="false" />
+        <activity
+            android:name=".ONegative"
+            android:exported="false" />
+        <activity
+            android:name=".BNegative"
+            android:exported="false" />
+        <activity
+            android:name=".BPositive"
+            android:exported="false" />
+        <activity
+            android:name=".ANegative"
+            android:exported="false" />
+        <activity
+            android:name=".APositive"
+            android:exported="false" />
+        <activity
+            android:name=".GroupList"
+            android:exported="false" />
+        <activity
+            android:name=".DonorList"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddDonor"
+            android:exported="false"
+            android:label="Add New Donor" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!--This part is required to activate the application-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--The control passes from here to the Main Activity class-->
+        </activity>
+    </application>
+
+</manifest>
